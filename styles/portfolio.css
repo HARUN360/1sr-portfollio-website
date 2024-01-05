@@ -213,3 +213,33 @@
     margin-top: 50px;
 }
   /* A summary of My Resume section end  */
+  /* footer start */
+  footer{
+    display: flex;
+    background: #fff8f3;
+    padding: 130px 120px;
+    margin-top: 100px;
+    gap: 100px;
+  }
+  .footer-column{
+    width: 50%;
+  }
+  .social-link a{
+    margin-right: 15px;
+  }
+  .contact input[type="text"], .contact input[type="email"],
+  textarea{
+    display: block;
+    margin: 20px 0px;
+    padding: 18px 35px;
+    color: #757575;
+    background: #FFF;
+    border: 0;
+  }
+  .footer-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+  /* footer end */
