@@ -115,13 +115,24 @@
 
 
   /* main section style end */
-
+  main {
+    max-width: 1140px;
+    margin: 0px auto;
+  }
+    
   /* about section start */
   .about {
       padding: 130px;
       border-radius: 10px;
-      background: #FFF8F3;
+      background: #ffd1c67b;
       margin: 130px 0px;
+  }
+  .about-info-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-info{
+    text-align: center;
   }
 
   /* about section end */
